@@ -10,7 +10,7 @@ import styleApp from './App.component.scss';
 import NotFound from './Error';
 import Dashboard from '../dashboard/Dashboard';
 import Heatmap from '../heatmap/Heatmap';
-import { Logo } from '../shared/Index';
+import { Logo, MenuSidebar } from '../shared/Index';
 
 class App extends React.Component {
   render(){
@@ -19,6 +19,7 @@ class App extends React.Component {
         <div className={styleApp.fullScreen}>
           <div className={styleApp.toc}>
             <Logo />
+            <MenuSidebar currentRoute={this.props.location} />
           </div>
           <div className={styleApp.article}>
             {this.props.children}
