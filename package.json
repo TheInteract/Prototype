@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/TheInteract/Prototype#readme",
   "dependencies": {
+    "jquery": "^2.2.3",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "react-router": "^2.4.0"
+    "react-router": "^2.4.0",
+    "semantic-ui-css": "^2.1.8"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",

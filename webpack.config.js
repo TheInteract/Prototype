@@ -1,5 +1,6 @@
 const webpack = require('webpack')
 const path = require('path')
+const autoprefixer = require('autoprefixer')
 
 module.exports = {
 	devtool: 'eval',
@@ -26,7 +27,14 @@ module.exports = {
 				exclude: /node_modules/,
 				loaders: [
 					'style-loader',
-					'css-loader'
+					{
+						loader: 'css-loader',
+						query: {
+							sourceMap: true,
+							module: true,
+							localIdentName: '[local]___[hash:base64:5]'
+						}
+					}
 				]
 			},
 			{
@@ -37,7 +45,9 @@ module.exports = {
 					{
 						loader: 'css-loader',
 						query: {
-							sourceMap: true
+							sourceMap: true,
+							module: true,
+							localIdentName: '[local]___[hash:base64:5]'
 						}
 					},
 					{
@@ -54,5 +64,10 @@ module.exports = {
 	},
 	postcss: function () {
 		return [autoprefixer]
-	}
+	},
+	plugins: [
+    	new webpack.ProvidePlugin({
+      		'jQuery': 'jquery'
+    	})
+  	]
 }

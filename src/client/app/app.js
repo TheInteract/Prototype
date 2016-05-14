@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router, Route, Link, IndexRoute } from 'react-router';
+import 'semantic-ui-css/semantic';
 
 import NotFound from './Error';
 import Dashboard from '../dashboard/Dashboard';
