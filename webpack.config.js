@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
 	devtool: 'eval',
-	entry: './main.js',
+	entry: './app/client/main.js',
 	output: {
 		publicPath: '/public/',
 		path: path.join(__dirname, 'public'),
