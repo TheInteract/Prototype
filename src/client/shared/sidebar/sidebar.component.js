@@ -9,6 +9,7 @@ import styles from './sidebar.component.scss';
 class MenuSidebar extends React.Component {
   render(){
   	let cRoute = this.props.currentRoute
+    console.log(cRoute)
   	let menuStyles = {
   		dashboard: cx(['item', {active: cRoute.pathname === '/' }]),
   		heatmap: cx(['item', {active: cRoute.pathname === '/heatmap'}]),

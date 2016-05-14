@@ -7,15 +7,15 @@ import styles from './profile.component.scss';
 
 class ProfileSidebar extends React.Component {
   render(){
-    let setMaxWidth = cx(['ui', 'list', 'relaxed', 'inverted', styles.maxWidth])
+    let setPorfilePosition = cx(['ui', 'basic', 'segment', styles.profile])
     return (
-        <div className="ui basic segment profile">
+        <div className={setPorfilePosition}>
             <h2 className="ui header inverted">
-                <img src="assets/imgs/avatar/elliot.jpg" className="ui circular image"/>
+                <img src="assets/imgs/avatar/matthew.png" className="ui circular image"/>
                 <div className="content">
-                    Mr. Prototype Interact
+                    Mr. Prototype
+                    <div className="sub header inverted">Gold Package</div>
                 </div>
-                <div className="sub header inverted">Gold Package</div>
             </h2>
             <div className="ui buttons fluid large">
                 <button className="ui button">
