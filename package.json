@@ -19,7 +19,8 @@
   "homepage": "https://github.com/TheInteract/Prototype#readme",
   "dependencies": {
     "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
