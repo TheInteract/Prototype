@@ -1,18 +1,30 @@
+// Library
 import React from 'react';
 import { Router, Route, Link, IndexRoute } from 'react-router';
-import 'semantic-ui-css/semantic';
 
+// Style
+import 'semantic-ui-css/semantic';
+import styleApp from './App.component.scss';
+
+// Component
 import NotFound from './Error';
 import Dashboard from '../dashboard/Dashboard';
 import Heatmap from '../heatmap/Heatmap';
+import { Logo } from '../shared/Index';
 
 class App extends React.Component {
   render(){
     return (
-    	<div>
-    		<h1>Test</h1>
-    		{this.props.children}
-    	</div>
+      <div className={styleApp.pusher}>
+        <div className={styleApp.fullScreen}>
+          <div className={styleApp.toc}>
+            <Logo />
+          </div>
+          <div className={styleApp.article}>
+            {this.props.children}
+          </div>
+        </div>
+      </div>
     )
   }
 }
