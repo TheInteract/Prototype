@@ -46,10 +46,10 @@ module.exports = {
 							outputStyle: 'expanded',
 							sourceMap: true
 						}
-					}
+					},
+					'postcss-loader'
 				]
-			},
-			'postcss-loader'
+			}
 		]
 	},
 	postcss: function () {
