@@ -1,3 +1,3 @@
 #UX Analytic prototype
 
-### by React.js
+by React.js
