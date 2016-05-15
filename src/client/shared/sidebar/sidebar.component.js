@@ -9,7 +9,6 @@ import styles from './sidebar.component.scss';
 class MenuSidebar extends React.Component {
   render(){
   	let cRoute = this.props.currentRoute
-    console.log(cRoute)
   	let menuStyles = {
   		dashboard: cx(['item', {active: cRoute.pathname === '/' }]),
   		heatmap: cx(['item', {active: cRoute.pathname === '/heatmap'}]),
@@ -23,7 +22,7 @@ class MenuSidebar extends React.Component {
     	<div className={setMaxWidth}>
     		<Link className={menuStyles.dashboard} to="/">
     			<i className="dashboard icon"></i>
-    			Dashboard
+    			My Dashboard
     		</Link>
     		<Link className={menuStyles.heatmap} to="/heatmap">
     			<i className="newspaper icon"></i>
