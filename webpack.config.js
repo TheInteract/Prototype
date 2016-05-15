@@ -3,24 +3,23 @@ const path = require('path')
 const autoprefixer = require('autoprefixer')
 
 module.exports = {
-	devtool: 'eval',
-	entry: './src/client/main.js',
+
+	entry: [
+		path.resolve(__dirname, 'src/client.jsx')
+	],
+
 	output: {
 		publicPath: '/public/',
 		path: path.join(__dirname, 'public'),
 		filename: 'bundle.js'
 	},
-	devServer: {
-		hot: true,
-		inline: true,
-		port: 3000
-	},
+
 	module: {
 		loaders: [
 			{
-				test: /\.(js|jsx)$/,
+				test: /\.jsx?$/,
 				exclude: /node_modules/,
-				loader: 'babel'
+				loader: 'babel-loader'
 			},
 			{
 				test: /\.css$/,
@@ -66,9 +65,19 @@ module.exports = {
 			}
 		]
 	},
+
 	postcss: function () {
 		return [autoprefixer]
 	},
+
+	devtool: 'eval',
+
+	devServer: {
+		hot: true,
+		inline: true,
+		port: 3000
+	},
+
 	plugins: [
     	new webpack.ProvidePlugin({
       		'jQuery': 'jquery'
