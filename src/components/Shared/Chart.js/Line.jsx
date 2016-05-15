@@ -29,7 +29,7 @@ export default class Line extends React.Component {
     }
     render() {
         return (
-            <canvas ref={'chart'} height='400px' width='600px'></canvas>
+            <canvas ref={'chart'}></canvas>
         )
     }
 }
