@@ -6,17 +6,38 @@ export default class Line extends React.Component {
     }
     componentDidMount () {
       let chartCanvas = this.refs.chart
-
+      console.log(this.props)
       let myChart = new Chart(chartCanvas, {
         type: 'line',
         data: {
-            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-            datasets: [{
-                label: 'Session',
-                data: [12, 19, 3, 5, 2, 3]
-            }]
+            labels: this.props.data.labels,
+            datasets: this.props.data.dataset
         },
-        options: {}
+        options: {
+            responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Month'
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value'
+                        }
+                    }]
+                }
+        }
       })
       this.setState({chart: myChart})
     }
