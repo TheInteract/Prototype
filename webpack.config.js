@@ -23,15 +23,13 @@ module.exports = {
 			},
 			{
 				test: /\.css$/,
-				exclude: /node_modules/,
 				loaders: [
 					'style-loader',
 					{
 						loader: 'css-loader',
 						query: {
 							sourceMap: true,
-							module: true,
-							localIdentName: '[local]___[hash:base64:5]'
+							module: true
 						}
 					}
 				]
