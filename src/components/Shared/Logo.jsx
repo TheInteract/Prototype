@@ -11,7 +11,7 @@ export default class Logo extends React.Component {
                     <div className="item">
                         <h1 className="ui center aligned icon header">
                             <i className="area chart icon"></i>
-                            <div className="content">The Interact
+                            <div className="content">The Interaction
                                 <div className="sub header">UX Analytic</div>
                             </div>
                         </h1>
