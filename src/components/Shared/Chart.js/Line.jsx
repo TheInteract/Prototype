@@ -6,7 +6,7 @@ export default class Line extends React.Component {
     }
     componentDidMount () {
       let chartCanvas = this.refs.chart
-      console.log(this.props)
+      
       let myChart = new Chart(chartCanvas, {
         type: 'line',
         data: {

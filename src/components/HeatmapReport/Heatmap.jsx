@@ -31,15 +31,24 @@ export default class Heatmap extends React.Component {
 		heatmapInstance.setData(datas);
 	}
 
+
     render() {
+        var divMaxSize = {
+        width: '100%'
+      }
         return (
-        	<div className="ui one column grid">
-        		<div className="column">
-        			<div id='heatmapContainerID' ref={'heatmapContainer'}>
-        				<img src="assets/imgs/google.png" className={styles.imgStyle} alt=""/>
-        			</div>
-    			</div>
-    		</div>
+          <div className="ui segment basic" style={divMaxSize}>
+                <h1 className="ui header">
+                    <i className="random icon"></i>
+                    <div className="content">
+                        Attention Heatmap Report
+                    </div>
+                </h1>
+                <div className="ui divider"></div>
+                <div id='heatmapContainerID' ref={'heatmapContainer'}>
+                <img src="assets/imgs/google.png" className={styles.imgStyle} alt=""/>
+              </div>
+            </div>
         )
     }
 }

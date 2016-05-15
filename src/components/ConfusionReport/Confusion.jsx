@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import styles from './confusion.scss'
 
 export default class Confusion extends React.Component {
     render(){
@@ -14,7 +15,7 @@ export default class Confusion extends React.Component {
                     </div>
                 </h1>
                 <div className="ui divider"></div>
-                <img src="assets/imgs/confusion.png" alt=""/>
+                <img src="assets/imgs/confusion.png" className={styles.imgStyle} alt=""/>
             </div>
         )
     }
