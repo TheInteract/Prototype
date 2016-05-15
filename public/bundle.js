@@ -27422,7 +27422,7 @@
 	                    )
 	                ),
 	                _react2.default.createElement('div', { className: 'ui divider' }),
-	                _react2.default.createElement('img', { src: 'assets/imgs/confusion.png', className: _confusion2.default.imgStyle, alt: '' })
+	                _react2.default.createElement('img', { src: 'public/img/confusion.png', className: _confusion2.default.imgStyle, alt: '' })
 	            );
 	        }
 	    }]);
@@ -27698,7 +27698,7 @@
 	                    )
 	                ),
 	                _react2.default.createElement('div', { className: 'ui divider' }),
-	                _react2.default.createElement('img', { src: 'assets/imgs/form.png', className: _form2.default.imgStyle, alt: '' })
+	                _react2.default.createElement('img', { src: 'public/img/form.png', className: _form2.default.imgStyle, alt: '' })
 	            );
 	        }
 	    }]);
@@ -27789,7 +27789,7 @@
 	                _react2.default.createElement(
 	                    'div',
 	                    { id: 'heatmapContainerID', ref: 'heatmapContainer' },
-	                    _react2.default.createElement('img', { src: 'assets/imgs/google.png', className: _heatmap4.default.imgStyle, alt: '' })
+	                    _react2.default.createElement('img', { src: 'public/img/google.png', className: _heatmap4.default.imgStyle, alt: '' })
 	                )
 	            );
 	        }
@@ -28294,7 +28294,7 @@
 	                _react2.default.createElement(
 	                    'h2',
 	                    { className: 'ui header inverted' },
-	                    _react2.default.createElement('img', { src: 'assets/imgs/avatar/matthew.png', className: 'ui circular image' }),
+	                    _react2.default.createElement('img', { src: 'public/img/avatar/matthew.png', className: 'ui circular image' }),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'content' },
@@ -28389,7 +28389,7 @@
 	                    )
 	                ),
 	                _react2.default.createElement('div', { className: 'ui divider' }),
-	                _react2.default.createElement('img', { src: 'assets/imgs/funnel_full.png', className: _webflow2.default.imgStyle, alt: '' })
+	                _react2.default.createElement('img', { src: 'public/img/funnel_full.png', className: _webflow2.default.imgStyle, alt: '' })
 	            );
 	        }
 	    }]);
@@ -38638,7 +38638,7 @@
 
 
 	// module
-	exports.push([module.i, ".maxWidth___X4dmf {\n  width: 100% !important;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/menuSidebar.scss"],"names":[],"mappings":"AAAA;EACC,uBAAuB;CACvB","file":"menuSidebar.scss","sourcesContent":[".maxWidth {\n\twidth: 100% !important;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".maxWidth___X4dmf {\n  width: 100% !important;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/menuSidebar.scss"],"names":[],"mappings":"AAAA;EACC,uBAAuB;CACvB","file":"menuSidebar.scss","sourcesContent":[".maxWidth {\n\twidth: 100% !important;\n}\n"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
