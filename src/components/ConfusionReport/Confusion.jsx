@@ -2,9 +2,19 @@ import React from 'react';
 
 export default class Confusion extends React.Component {
     render(){
+        var divMaxSize = {
+    		width: '100%'
+    	}
         return (
-            <div>
-                This is confusion detection report.
+        	<div className="ui segment basic" style={divMaxSize}>
+                <h1 className="ui header">
+                    <i className="random icon"></i>
+                    <div className="content">
+                        Confusion Detection Report
+                    </div>
+                </h1>
+                <div className="ui divider"></div>
+                <img src="assets/imgs/confusion.png" alt=""/>
             </div>
         )
     }
