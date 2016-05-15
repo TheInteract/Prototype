@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './webflow.scss'
 
 export default class Webflow extends React.Component {
     render() {
@@ -14,7 +15,7 @@ export default class Webflow extends React.Component {
                     </div>
                 </h1>
                 <div className="ui divider"></div>
-                <img src="assets/imgs/funnel_full.png" alt=""/>
+                <img src="assets/imgs/funnel_full.png" className={styles.imgStyle} alt=""/>
             </div>
         )
     }
