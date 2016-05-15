@@ -35,7 +35,7 @@ export default class MenuSidebar extends React.Component {
                     <div className="menu">
                         <Link to="/setting" className="item" activeClassName="active">
                             <i className="settings icon"></i>
-                            Setting
+                            Guide
                         </Link>
                     </div>
                 </div>
