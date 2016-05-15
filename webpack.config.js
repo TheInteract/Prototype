@@ -67,14 +67,14 @@ module.exports = {
 		return [autoprefixer]
 	},
 
-	// devtool: 'eval',
-    //
-	// devServer: {
-	// 	hot: true,
-	// 	inline: true,
-	// 	port: 3000,
-	// 	historyApiFallback: true
-	// },
+	devtool: 'eval',
+
+	devServer: {
+		hot: true,
+		inline: true,
+		port: 3000,
+		historyApiFallback: true
+	},
 
 	plugins: [
     	new webpack.ProvidePlugin({

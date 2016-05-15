@@ -8,7 +8,7 @@ export default class ProfileSidebar extends React.Component {
         return (
             <div className={setPorfilePosition}>
                 <h2 className="ui header inverted">
-                    <img src="assets/imgs/avatar/matthew.png" className="ui circular image"/>
+                    <img src="public/img/avatar/matthew.png" className="ui circular image"/>
                     <div className="content">
                         Mr. Prototype
                         <div className="sub header inverted">Gold Package</div>

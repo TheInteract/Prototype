@@ -15,7 +15,7 @@ export default class Webflow extends React.Component {
                     </div>
                 </h1>
                 <div className="ui divider"></div>
-                <img src="assets/imgs/funnel_full.png" className={styles.imgStyle} alt=""/>
+                <img src="public/img/funnel_full.png" className={styles.imgStyle} alt=""/>
             </div>
         )
     }

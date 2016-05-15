@@ -11,10 +11,10 @@ export default class Heatmap extends React.Component {
   			container: this.refs.heatmapContainer
 		});
 
-		let datas = { 
+		let datas = {
 			min: 0,
-  			max: 100, 
-  			data: [{x: 807, y: 583, value: 65}, 
+  			max: 100,
+  			data: [{x: 807, y: 583, value: 65},
   				{x: 597, y: 285, value: 51},
   				{x: 217, y: 449, value: 73},
   				{x: 377, y: 656, value: 58},
@@ -46,7 +46,7 @@ export default class Heatmap extends React.Component {
                 </h1>
                 <div className="ui divider"></div>
                 <div id='heatmapContainerID' ref={'heatmapContainer'}>
-                <img src="assets/imgs/google.png" className={styles.imgStyle} alt=""/>
+                <img src="public/img/google.png" className={styles.imgStyle} alt=""/>
               </div>
             </div>
         )

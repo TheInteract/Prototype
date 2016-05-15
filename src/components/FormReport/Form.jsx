@@ -15,7 +15,7 @@ export default class Form extends React.Component {
                     </div>
                 </h1>
                 <div className="ui divider"></div>
-                <img src="assets/imgs/form.png" className={styles.imgStyle} alt=""/>
+                <img src="public/img/form.png" className={styles.imgStyle} alt=""/>
             </div>
         )
     }

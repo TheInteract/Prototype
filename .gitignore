@@ -6,6 +6,3 @@ logs
 *.log
 npm-debug.log*
 .DS_Store
-
-# Production directory
-public/
