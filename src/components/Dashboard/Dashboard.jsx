@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class Dashboard extends React.Component {
     render() {
-
+        console.log(React)
         return (
             <div className="ui segment basic">
                 <h1 className="ui header">

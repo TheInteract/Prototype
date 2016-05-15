@@ -13,7 +13,7 @@ export default class App extends React.Component {
                 <div className={style.fullScreen}>
                     <div className={style.toc}>
                         <Logo />
-                        <MenuSidebar currentRoute={this.props.location} />
+                        <MenuSidebar />
                         <ProfileSidebar />
                     </div>
                     <div className={style.article}>

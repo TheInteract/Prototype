@@ -43,7 +43,3 @@ export default class MenuSidebar extends React.Component {
         )
     }
 }
-
-MenuSidebar.propTypes = {
-    currentRoute: React.PropTypes.object.isRequired
-}
