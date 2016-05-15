@@ -1,8 +1,9 @@
 import React from 'react'
+import Chart from '../Shared/ChartJS.jsx'
 
 export default class Dashboard extends React.Component {
     render() {
-
+        console.log(React)
         return (
             <div className="ui segment basic">
                 <h1 className="ui header">
@@ -12,6 +13,7 @@ export default class Dashboard extends React.Component {
                         .sub.header{}
                     </div>
                 </h1>
+                <Chart.Line />
             </div>
         )
     }

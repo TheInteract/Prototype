@@ -5,42 +5,33 @@ import styles from './menuSidebar.scss';
 
 export default class MenuSidebar extends React.Component {
     render() {
-        let cRoute = this.props.currentRoute
-        let menuStyles = {
-            dashboard: cx(['item', {active: cRoute.pathname === '/' }]),
-            heatmap: cx(['item', {active: cRoute.pathname === '/heatmap'}]),
-            confusion: cx(['item', {active: cRoute.pathname === '/confusion'}]),
-            webflow: cx(['item', {active: cRoute.pathname === '/webflow'}]),
-            form: cx(['item', {active: cRoute.pathname === '/form'}]),
-            setting: cx(['item', {active: cRoute.pathname === '/setting'}])
-        }
         let setMaxWidth = cx(['ui', styles.maxWidth, 'secondary', 'vertical', 'inverted', 'menu'])
         return (
             <div className={setMaxWidth}>
-                <Link className={menuStyles.dashboard} to="/">
+                <Link className="item" activeClassName="active" to="/dashboard">
                     <i className="dashboard icon"></i>
                     My Dashboard
                 </Link>
-                <Link className={menuStyles.heatmap} to="/heatmap">
+                <Link className="item" activeClassName="active" to="/heatmap">
                     <i className="newspaper icon"></i>
                     Heatmap Report
                 </Link>
-                <Link className={menuStyles.confusion} to="/confusion">
+                <Link className="item" activeClassName="active" to="/confusion">
                     <i className="random icon"></i>
                     Confusion Detection Report
                 </Link>
-                <Link className={menuStyles.webflow} to="/webflow">
+                <Link className="item" activeClassName="active" to="/webflow">
                     <i className="fork icon"></i>
                     Web Page Flow Report
                 </Link>
-                <Link className={menuStyles.form} to="/form">
+                <Link className="item" activeClassName="active" to="/form">
                     <i className="keyboard icon"></i>
                     Form Analytic Report
                 </Link>
                 <div className="item">
                     <div className="header">Accounts</div>
                     <div className="menu">
-                        <Link className={menuStyles.setting} to="/setting">
+                        <Link className="item" activeClassName="active" to="/setting">
                             <i className="settings icon"></i>
                             Setting
                         </Link>
@@ -49,8 +40,4 @@ export default class MenuSidebar extends React.Component {
             </div>
         )
     }
-}
-
-MenuSidebar.propTypes = {
-    currentRoute: React.PropTypes.object.isRequired
 }

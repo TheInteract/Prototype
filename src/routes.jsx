@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, IndexRoute } from 'react-router'
+import { Route, IndexRedirect } from 'react-router'
 import App from './components/App/App.jsx'
 import NotFound from './components/Errors/NotFound.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'
@@ -11,7 +11,8 @@ import Setting from './components/Setting/Setting.jsx'
 
 export default (
 	<Route path="/" component={App}>
-		<IndexRoute component={Dashboard} />
+		<IndexRedirect to="/dashboard" />
+		<Route path="/dashboard" component={Dashboard} />
 		<Route path="/heatmap" component={HeatmapReport} />
         <Route path="/confusion" component={ConfusionReport} />
         <Route path="/webflow" component={WebflowReport} />
