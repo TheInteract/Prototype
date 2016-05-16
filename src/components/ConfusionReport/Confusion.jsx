@@ -15,7 +15,7 @@ export default class Confusion extends React.Component {
                     </div>
                 </h1>
                 <div className="ui divider"></div>
-                <img src="public/img/confusion.png" className={styles.imgStyle} alt=""/>
+                <img src="public/img/confusion.PNG" className={styles.imgStyle} alt=""/>
             </div>
         )
     }
