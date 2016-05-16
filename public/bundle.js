@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/public/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 414);
@@ -27422,7 +27422,7 @@
 	                    )
 	                ),
 	                _react2.default.createElement('div', { className: 'ui divider' }),
-	                _react2.default.createElement('img', { src: 'public/img/confusion.png', className: _confusion2.default.imgStyle, alt: '' })
+	                _react2.default.createElement('img', { src: 'public/img/confusion.PNG', className: _confusion2.default.imgStyle, alt: '' })
 	            );
 	        }
 	    }]);
@@ -28389,7 +28389,7 @@
 	                    )
 	                ),
 	                _react2.default.createElement('div', { className: 'ui divider' }),
-	                _react2.default.createElement('img', { src: 'public/img/funnel_full.png', className: _webflow2.default.imgStyle, alt: '' })
+	                _react2.default.createElement('img', { src: 'public/img/funnel_full.PNG', className: _webflow2.default.imgStyle, alt: '' })
 	            );
 	        }
 	    }]);
@@ -38518,19 +38518,19 @@
 
 
 	// module
-	exports.push([module.i, ".pusher___3P-_b > .fullScreen___1U6ol {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  flex-direction: row;\n  -webkit-box-flex: 1;\n  flex: auto;\n  -ms-flex: auto;\n  -webkit-flex: auto;\n}\n\n.pusher___3P-_b > .fullScreen___1U6ol > .toc___1kJzx {\n  position: fixed;\n  z-index: 999;\n  background-color: #2B2D42;\n  width: 300px;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  min-height: 100%;\n}\n\n.pusher___3P-_b > .fullScreen___1U6ol > .toc___1kJzx .ui___2HMal.menu___3re7B {\n  border-radius: 0;\n  border-width: 0 1px 0 0;\n  box-shadow: none;\n  margin: 0;\n  width: inherit;\n  overflow: hidden;\n  will-change: transform;\n}\n\n.article___ftLc4 {\n  -webkit-box-flex: 1;\n  -ms-flex: 1 1 auto;\n  flex: 1 1 auto;\n  min-width: 0px;\n  padding-left: 300px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n\n.article___ftLc4 .content___1CYQ9 {\n  width: 75%;\n  min-height: 100%;\n}\n\n.article___ftLc4 .enroll___KSccx {\n  z-index: 999;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  min-height: 100%;\n  right: 0;\n  width: 25%;\n  background: #457B9D;\n  color: #FDFFFC;\n  border-left: 1px solid rgba(34, 36, 38, 0.15);\n  padding: 1rem 1rem 0 1.5rem;\n  position: relative;\n}\n\n.menu___3re7B > .ui___2HMal.list___2cE_1 {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/App/app.scss"],"names":[],"mappings":"AAAA;EAEE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,wBAAwB;EACxB,+BAA+B;EAC/B,8BAA8B;EACtB,oBAAoB;EAC5B,oBAAoB;EACZ,WAAW;EACnB,eAAe;EACf,mBAAmB;CAoBnB;;AAhCF;EAcG,gBAAgB;EAChB,aAAa;EACb,0BAA0B;EAC1B,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,iBAAiB;CAUjB;;AA/BH;EAuBI,iBAAiB;EACjB,wBAAwB;EACxB,iBAAiB;EACjB,UAAU;EACV,eAAe;EACf,iBAAiB;EACjB,uBAAuB;CACvB;;AAKJ;EACC,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,eAAe;EACf,oBAAoB;EACpB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;CAKd;;AAbD;EAUE,WAAW;EACX,iBAAiB;CACjB;;AAGF;EACC,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,iBAAiB;EACjB,SAAS;EACT,WAAW;EACX,oBAAoB;EACpB,eAAe;EACf,8CAA2B;EAC3B,4BAA4B;EAC5B,mBAAmB;CACnB;;AAED;EACC,YAAY;CACZ","file":"app.scss","sourcesContent":[".pusher {\n\t> .fullScreen {\n\t\tdisplay: -webkit-box;\n\t\tdisplay: -ms-flexbox;\n\t\tdisplay: flex;\n\t\t-ms-flex-direction: row;\n\t\t-webkit-box-orient: horizontal;\n\t\t-webkit-box-direction: normal;\n\t\t        flex-direction: row;\n\t\t-webkit-box-flex: 1;\n\t\t        flex: auto;\n\t\t-ms-flex: auto;\n\t\t-webkit-flex: auto;\n\t\t> .toc {\n\t\t\tposition: fixed;\n\t\t\tz-index: 999;\n\t\t\tbackground-color: #2B2D42;\n\t\t\twidth: 300px;\n\t\t\t-webkit-box-flex: 0;\n\t\t\t-ms-flex: 0 0 auto;\n\t\t\tflex: 0 0 auto;\n\t\t\tmin-height: 100%;\n\t\t\t.ui.menu {\n\t\t\t\tborder-radius: 0;\n\t\t\t\tborder-width: 0 1px 0 0;\n\t\t\t\tbox-shadow: none;\n\t\t\t\tmargin: 0;\n\t\t\t\twidth: inherit;\n\t\t\t\toverflow: hidden;\n\t\t\t\twill-change: transform;\n\t\t\t}\n\t\t}\n\t}\n}\n\n.article {\n\t-webkit-box-flex: 1;\n\t-ms-flex: 1 1 auto;\n\tflex: 1 1 auto;\n\tmin-width: 0px;\n\tpadding-left: 300px;\n\tdisplay: -webkit-box;\n\tdisplay: -ms-flexbox;\n\tdisplay: flex;\n\t.content {\n\t\twidth: 75%;\n\t\tmin-height: 100%;\n\t}\n}\n\n.article .enroll {\n\tz-index: 999;\n\t-webkit-box-flex: 0;\n\t-ms-flex: 0 0 auto;\n\tflex: 0 0 auto;\n\tmin-height: 100%;\n\tright: 0;\n\twidth: 25%;\n\tbackground: #457B9D;\n\tcolor: #FDFFFC;\n\tborder-left: 1px solid rgba(34,36,38,.15);\n\tpadding: 1rem 1rem 0 1.5rem;\n\tposition: relative;\n}\n\n.menu > .ui.list {\n\twidth: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".pusher___37Yog > .fullScreen___1JbgS {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  flex-direction: row;\n  -webkit-box-flex: 1;\n  flex: auto;\n  -ms-flex: auto;\n  -webkit-flex: auto;\n}\n\n.pusher___37Yog > .fullScreen___1JbgS > .toc___A_oby {\n  position: fixed;\n  z-index: 999;\n  background-color: #2B2D42;\n  width: 300px;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  min-height: 100%;\n}\n\n.pusher___37Yog > .fullScreen___1JbgS > .toc___A_oby .ui___22q2h.menu___1kQ1y {\n  border-radius: 0;\n  border-width: 0 1px 0 0;\n  box-shadow: none;\n  margin: 0;\n  width: inherit;\n  overflow: hidden;\n  will-change: transform;\n}\n\n.article___1manf {\n  -webkit-box-flex: 1;\n  -ms-flex: 1 1 auto;\n  flex: 1 1 auto;\n  min-width: 0px;\n  padding-left: 300px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n\n.article___1manf .content___3iBGY {\n  width: 75%;\n  min-height: 100%;\n}\n\n.article___1manf .enroll___2HVKd {\n  z-index: 999;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 auto;\n  flex: 0 0 auto;\n  min-height: 100%;\n  right: 0;\n  width: 25%;\n  background: #457B9D;\n  color: #FDFFFC;\n  border-left: 1px solid rgba(34, 36, 38, 0.15);\n  padding: 1rem 1rem 0 1.5rem;\n  position: relative;\n}\n\n.menu___1kQ1y > .ui___22q2h.list___3qk-L {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/App/app.scss"],"names":[],"mappings":"AAAA;EAEE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,wBAAwB;EACxB,+BAA+B;EAC/B,8BAA8B;EACtB,oBAAoB;EAC5B,oBAAoB;EACZ,WAAW;EACnB,eAAe;EACf,mBAAmB;CAoBnB;;AAhCF;EAcG,gBAAgB;EAChB,aAAa;EACb,0BAA0B;EAC1B,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,iBAAiB;CAUjB;;AA/BH;EAuBI,iBAAiB;EACjB,wBAAwB;EACxB,iBAAiB;EACjB,UAAU;EACV,eAAe;EACf,iBAAiB;EACjB,uBAAuB;CACvB;;AAKJ;EACC,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,eAAe;EACf,oBAAoB;EACpB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;CAKd;;AAbD;EAUE,WAAW;EACX,iBAAiB;CACjB;;AAGF;EACC,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,eAAe;EACf,iBAAiB;EACjB,SAAS;EACT,WAAW;EACX,oBAAoB;EACpB,eAAe;EACf,8CAA2B;EAC3B,4BAA4B;EAC5B,mBAAmB;CACnB;;AAED;EACC,YAAY;CACZ","file":"app.scss","sourcesContent":[".pusher {\r\n\t> .fullScreen {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -ms-flexbox;\r\n\t\tdisplay: flex;\r\n\t\t-ms-flex-direction: row;\r\n\t\t-webkit-box-orient: horizontal;\r\n\t\t-webkit-box-direction: normal;\r\n\t\t        flex-direction: row;\r\n\t\t-webkit-box-flex: 1;\r\n\t\t        flex: auto;\r\n\t\t-ms-flex: auto;\r\n\t\t-webkit-flex: auto;\r\n\t\t> .toc {\r\n\t\t\tposition: fixed;\r\n\t\t\tz-index: 999;\r\n\t\t\tbackground-color: #2B2D42;\r\n\t\t\twidth: 300px;\r\n\t\t\t-webkit-box-flex: 0;\r\n\t\t\t-ms-flex: 0 0 auto;\r\n\t\t\tflex: 0 0 auto;\r\n\t\t\tmin-height: 100%;\r\n\t\t\t.ui.menu {\r\n\t\t\t\tborder-radius: 0;\r\n\t\t\t\tborder-width: 0 1px 0 0;\r\n\t\t\t\tbox-shadow: none;\r\n\t\t\t\tmargin: 0;\r\n\t\t\t\twidth: inherit;\r\n\t\t\t\toverflow: hidden;\r\n\t\t\t\twill-change: transform;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\n.article {\r\n\t-webkit-box-flex: 1;\r\n\t-ms-flex: 1 1 auto;\r\n\tflex: 1 1 auto;\r\n\tmin-width: 0px;\r\n\tpadding-left: 300px;\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -ms-flexbox;\r\n\tdisplay: flex;\r\n\t.content {\r\n\t\twidth: 75%;\r\n\t\tmin-height: 100%;\r\n\t}\r\n}\r\n\r\n.article .enroll {\r\n\tz-index: 999;\r\n\t-webkit-box-flex: 0;\r\n\t-ms-flex: 0 0 auto;\r\n\tflex: 0 0 auto;\r\n\tmin-height: 100%;\r\n\tright: 0;\r\n\twidth: 25%;\r\n\tbackground: #457B9D;\r\n\tcolor: #FDFFFC;\r\n\tborder-left: 1px solid rgba(34,36,38,.15);\r\n\tpadding: 1rem 1rem 0 1.5rem;\r\n\tposition: relative;\r\n}\r\n\r\n.menu > .ui.list {\r\n\twidth: 100%;\r\n}\r\n"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"pusher": "pusher___3P-_b",
-		"fullScreen": "fullScreen___1U6ol",
-		"toc": "toc___1kJzx",
-		"ui": "ui___2HMal",
-		"menu": "menu___3re7B",
-		"article": "article___ftLc4",
-		"content": "content___1CYQ9",
-		"enroll": "enroll___KSccx",
-		"list": "list___2cE_1"
+		"pusher": "pusher___37Yog",
+		"fullScreen": "fullScreen___1JbgS",
+		"toc": "toc___A_oby",
+		"ui": "ui___22q2h",
+		"menu": "menu___1kQ1y",
+		"article": "article___1manf",
+		"content": "content___3iBGY",
+		"enroll": "enroll___2HVKd",
+		"list": "list___3qk-L"
 	};
 
 /***/ },
@@ -38542,11 +38542,11 @@
 
 
 	// module
-	exports.push([module.i, ".imgStyle___x7t_L {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/ConfusionReport/confusion.scss"],"names":[],"mappings":"AAAA;EACE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"confusion.scss","sourcesContent":[".imgStyle {\n  max-width:100%; \n  max-height:100%;\n  margin:auto;\n  display:block;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".imgStyle___1q5SW {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/ConfusionReport/confusion.scss"],"names":[],"mappings":"AAAA;EACE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"confusion.scss","sourcesContent":[".imgStyle {\r\n  max-width:100%; \r\n  max-height:100%;\r\n  margin:auto;\r\n  display:block;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"imgStyle": "imgStyle___x7t_L"
+		"imgStyle": "imgStyle___1q5SW"
 	};
 
 /***/ },
@@ -38558,11 +38558,11 @@
 
 
 	// module
-	exports.push([module.i, ".maxWidth___kpOzg {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Dashboard/dashboard.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"dashboard.scss","sourcesContent":[".maxWidth {\n\twidth: 100%;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".maxWidth___1mM3K {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Dashboard/dashboard.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"dashboard.scss","sourcesContent":[".maxWidth {\r\n\twidth: 100%;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"maxWidth": "maxWidth___kpOzg"
+		"maxWidth": "maxWidth___1mM3K"
 	};
 
 /***/ },
@@ -38574,11 +38574,11 @@
 
 
 	// module
-	exports.push([module.i, ".imgStyle___GmmGJ {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/FormReport/form.scss"],"names":[],"mappings":"AAAA;EAEE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"form.scss","sourcesContent":[".imgStyle\n{\n  max-width:100%; \n  max-height:100%;\n  margin:auto;\n  display:block;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".imgStyle___3Sntn {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/FormReport/form.scss"],"names":[],"mappings":"AAAA;EAEE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"form.scss","sourcesContent":[".imgStyle\r\n{\r\n  max-width:100%; \r\n  max-height:100%;\r\n  margin:auto;\r\n  display:block;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"imgStyle": "imgStyle___GmmGJ"
+		"imgStyle": "imgStyle___3Sntn"
 	};
 
 /***/ },
@@ -38590,11 +38590,11 @@
 
 
 	// module
-	exports.push([module.i, ".imgStyle___NBYW- {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/HeatmapReport/heatmap.scss"],"names":[],"mappings":"AAAA;EACE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"heatmap.scss","sourcesContent":[".imgStyle {\n  max-width:100%; \n  max-height:100%;\n  margin:auto;\n  display:block;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".imgStyle___zti3g {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/HeatmapReport/heatmap.scss"],"names":[],"mappings":"AAAA;EACE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"heatmap.scss","sourcesContent":[".imgStyle {\r\n  max-width:100%; \r\n  max-height:100%;\r\n  margin:auto;\r\n  display:block;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"imgStyle": "imgStyle___NBYW-"
+		"imgStyle": "imgStyle___zti3g"
 	};
 
 /***/ },
@@ -38606,11 +38606,11 @@
 
 
 	// module
-	exports.push([module.i, ".maxWidth___GuTzm {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Setting/setting.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"setting.scss","sourcesContent":[".maxWidth {\n\twidth: 100%;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".maxWidth___2FA_s {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Setting/setting.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"setting.scss","sourcesContent":[".maxWidth {\r\n\twidth: 100%;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"maxWidth": "maxWidth___GuTzm"
+		"maxWidth": "maxWidth___2FA_s"
 	};
 
 /***/ },
@@ -38622,11 +38622,11 @@
 
 
 	// module
-	exports.push([module.i, ".maxWidth___1ugHK {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/logo.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"logo.scss","sourcesContent":[".maxWidth {\n\twidth: 100%;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".maxWidth___1Do-T {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/logo.scss"],"names":[],"mappings":"AAAA;EACC,YAAY;CACZ","file":"logo.scss","sourcesContent":[".maxWidth {\r\n\twidth: 100%;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"maxWidth": "maxWidth___1ugHK"
+		"maxWidth": "maxWidth___1Do-T"
 	};
 
 /***/ },
@@ -38638,11 +38638,11 @@
 
 
 	// module
-	exports.push([module.i, ".maxWidth___X4dmf {\n  width: 100% !important;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/menuSidebar.scss"],"names":[],"mappings":"AAAA;EACC,uBAAuB;CACvB","file":"menuSidebar.scss","sourcesContent":[".maxWidth {\n\twidth: 100% !important;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".maxWidth___1SfNE {\n  width: 100% !important;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/menuSidebar.scss"],"names":[],"mappings":"AAAA;EACC,uBAAuB;CACvB","file":"menuSidebar.scss","sourcesContent":[".maxWidth {\r\n\twidth: 100% !important;\r\n}\r\n"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"maxWidth": "maxWidth___X4dmf"
+		"maxWidth": "maxWidth___1SfNE"
 	};
 
 /***/ },
@@ -38654,11 +38654,11 @@
 
 
 	// module
-	exports.push([module.i, ".profile___3CZmJ {\n  position: absolute !important;\n  bottom: 0;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/profileSidebar.scss"],"names":[],"mappings":"AAAA;EACC,8BAA8B;EAC9B,UAAU;EACV,YAAY;CACZ","file":"profileSidebar.scss","sourcesContent":[".profile {\n\tposition: absolute !important;\n\tbottom: 0;\n\twidth: 100%;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".profile___1HoGf {\n  position: absolute !important;\n  bottom: 0;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/Shared/profileSidebar.scss"],"names":[],"mappings":"AAAA;EACC,8BAA8B;EAC9B,UAAU;EACV,YAAY;CACZ","file":"profileSidebar.scss","sourcesContent":[".profile {\r\n\tposition: absolute !important;\r\n\tbottom: 0;\r\n\twidth: 100%;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"profile": "profile___3CZmJ"
+		"profile": "profile___1HoGf"
 	};
 
 /***/ },
@@ -38670,11 +38670,11 @@
 
 
 	// module
-	exports.push([module.i, ".imgStyle___2fFxh {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/WebflowReport/webflow.scss"],"names":[],"mappings":"AAAA;EAEE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"webflow.scss","sourcesContent":[".imgStyle\n{\n  max-width:100%; \n  max-height:100%;\n  margin:auto;\n  display:block;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.i, ".imgStyle___2cwxn {\n  max-width: 100%;\n  max-height: 100%;\n  margin: auto;\n  display: block;\n}\n", "", {"version":3,"sources":["/./src/components/src/components/WebflowReport/webflow.scss"],"names":[],"mappings":"AAAA;EAEE,gBAAe;EACf,iBAAgB;EAChB,aAAY;EACZ,eAAc;CACf","file":"webflow.scss","sourcesContent":[".imgStyle\r\n{\r\n  max-width:100%; \r\n  max-height:100%;\r\n  margin:auto;\r\n  display:block;\r\n}"],"sourceRoot":"webpack://"}]);
 
 	// exports
 	exports.locals = {
-		"imgStyle": "imgStyle___2fFxh"
+		"imgStyle": "imgStyle___2cwxn"
 	};
 
 /***/ },
@@ -83048,3 +83048,4 @@
 
 /***/ }
 /******/ ]);
+//# sourceMappingURL=bundle.js.map
